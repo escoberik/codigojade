@@ -1,3 +1,68 @@
 // Place all the styles related to the services controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.maindiv{
+  width: 960px;
+  height: 520px;
+  padding: 0px;
+  position: relative;
+  margin:0 auto;
+  border: 1px solid black;
+  .header{
+    border: 1px solid black;
+    .logo {
+      display: inline-block;
+    }
+    .links{
+      float: right;
+      margin-top: 8px;
+      .top-links{
+        .languages{
+          display: inline-block;
+          margin-top: 7px;
+          margin-left: 5px;
+          .languageen{
+            float:left;
+            text-decoration: none;
+            margin-right:4px;
+          }
+          .languagees{
+            text-decoration: none;
+          }
+        }
+        ul{
+          display: inline-block;
+          float:right;
+          li{
+          display: inline-block;
+          float:left;
+          margin:0px 7px;
+            img{
+            }
+          }
+        }
+      }
+      .menu{
+        ul{
+          float:right;
+          li{
+            display: inline-block;
+            a{
+              display: inline-block;
+              padding: 8px 18px;
+              margin: 6px 5px;
+              text-decoration: none;
+              background-color: gray;
+              color: white;
+            }
+          }
+        }
+      }  
+    }
+  }
+}
+
+.clear{
+  clear: both;
+}
