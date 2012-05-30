@@ -1,0 +1,7 @@
+/config/*.yml
+.rvmrc
+*.swp
+/.bundle
+/log/*.log
+/tmp
+/public/system
