@@ -12,6 +12,7 @@ CodigoJade::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+  match 'about_us' => 'people#index'
   match 'services' => 'services#index' 
 
 
