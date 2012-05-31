@@ -8,9 +8,7 @@
   padding: 0px;
   position: relative;
   margin:0 auto;
-  border: 1px solid black;
   .header{
-    border: 1px solid black;
     position: relative;
     .logo {
       display: inline-block;
@@ -80,17 +78,51 @@
       .t2{
       position:absolute;
       color:white;
-      font-size:30px;
-      margin-left:330px;
+      font-size:45px;
+      margin-left:280px;
+      margin-top: 78px;
+      letter-spacing: 5px;
       }
     }
     .descriptions{
-      margin: 5px 9px;
+      margin-top: 12px;
+      margin-left: 8px;
       position:relative;
       ul{
-        li{
-        display: inline-block;
-        margin: 0px 2px;
+        position:relative;
+        .sd{
+          display: inline-block;
+          margin: 0px 3px;
+          background-image: url(softwaredevelopment.png);
+          width: 226px;
+          height: 187px;
+        }
+        .wd{
+          display: inline-block;
+          margin: 0px 3px;
+          background-image: url(webdesign.png);
+          width: 226px;
+          height: 187px;
+        }
+        .cm{
+          display: inline-block;
+          margin: 0px 3px;
+          background-image: url(contentmanagement.png);
+          width: 226px;
+          height: 187px;
+        }
+        .cs{
+          display: inline-block;
+          margin: 0px 3px;
+          background-image: url(continumsuport.png);
+          width: 226px;
+          height: 187px;
+        }
+        p{
+          text-align:center;
+          margin-top:165px;
+          color:white;
+          font-size:18px;
         }
       }
     }
