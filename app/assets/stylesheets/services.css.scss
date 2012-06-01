@@ -127,6 +127,53 @@
       }
     }
   }
+  .footer{
+    position: relative;
+    width: 960px;
+    .footers{
+      display: inline-block;
+      height: 100px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      float:left;
+      background-color: green;
+      ul{
+        margin-left: 15px;
+        margin-top: 10px;
+        font-size: 20px;
+        color: white;
+        li{
+          font-size: 15px;
+          margin-top: 2px;
+        }
+      }
+    }
+    .jadecode{
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 5px;
+    }
+    .socialjade{
+    width: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+    .blogjade{
+    width: 518px;
+    margin-left: 5px;
+      ul{
+        li{
+          margin-top: 8px;
+        }
+      }
+      p{
+        font-size: 10px;
+        float: right;
+        margin-right: 7px;
+        margin-top: 5px;
+      }
+    }
+  }
 }
 
 .clear{
