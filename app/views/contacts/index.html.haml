@@ -1,0 +1,46 @@
+.maindiv
+  .header
+    .logo
+      = image_tag("logo.png")
+    .links
+      .top-links
+        .languages
+          = link_to "english", "", :class => "languageen"
+          \/
+          = link_to "español", "", :class => "languagees"
+          .clear
+        %ul
+          %li 
+            = image_tag("facebook.png")
+          %li  
+            = image_tag("twitter.png")
+          %li  
+            = image_tag("googleplus.png") 
+          %li  
+            = image_tag("blogger.png")
+          .clear  
+        .clear  
+      .menu
+        %ul
+          %li
+            = link_to "services", "", :class => "weblinks"
+          %li
+            = link_to "about us", "", :class => "weblinks"
+          %li
+            = link_to "contact", "", :class => "weblinks"
+      .clear
+  .content
+    .formulario
+      %p want to hire us?
+      = semantic_form_for :contact do |f|
+        = f.inputs do
+          = f.input :name,    :input_html => { :class => 'name' }
+          = f.input :mail,    :input_html => { :class => 'mail' }
+          = f.input :proyect,  :input_html => { :class => 'proyect' }
+        = f.submit "submit"
+    .secretbase
+      %p.stitle jade secret base
+      %p.stext Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+
+    .clear    
+     

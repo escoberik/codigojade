@@ -1,0 +1,59 @@
+.formulario{
+  width: 592px;
+  height: 400px;
+  margin: 10px 10px;
+  padding: 15px 12px;
+  background-color: gray;
+  float:left;
+  p{
+    font-size: 60px;
+    color:white;
+  }
+  .formtastic{  
+    .inputs{
+      height:320px;
+      ol{
+        li{
+          float: left;
+          display: inline-block;
+          .label{
+          }
+          .name{
+            width: 220px;
+            margin: 10px 10px;
+          }
+          .mail{
+            width: 225px;
+            margin: 10px 5px 10px 10px;
+          }
+          .proyect{
+            width: 580px;
+            height: 240px;
+            margin-right: 10px;
+            margin-top: 3px;
+          }
+        }
+      }
+    }
+  }
+  input[type="submit"]{
+    background-color: green;
+    color: white;
+    border: 0px;
+    width: 80px;
+    height: 30px;
+  }
+}
+.secretbase{
+  margin: 10px 10px;
+  width: 300px;
+  float: right;
+  color: gray;
+  .stitle{
+    font-size: 25px;
+  }
+  .stext{
+    font-size: 15px;
+    margin-top: 10px;
+  }
+}
