@@ -23,16 +23,16 @@
       .menu
         %ul
           %li
-            = link_to "services", "", :class => "weblinks"
+            = link_to "services", services_path, :class => "weblinks"
           %li
-            = link_to "about us", "", :class => "weblinks"
+            = link_to "about us", about_us_path, :class => "weblinks"
           %li
-            = link_to "contact", "", :class => "weblinks"
+            = link_to "contact", contacts_path, :class => "weblinks"
       .clear
   .content 
     .mainview
-      %p.t1 High quality
-      %p.t2 software design
+      %h1 High quality
+      %h2 software design
     .descriptions
       %ul
         %li.sd

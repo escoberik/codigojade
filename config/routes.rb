@@ -15,9 +15,9 @@ CodigoJade::Application.routes.draw do
   
   resource :contacts, only: [:index, :create]
   
-  match 'about_us' => 'people#index'
-  match 'services' => 'services#index' 
-  match 'contacts' => 'contacts#index'
+  match 'about_us' => 'people#index', :as => :about_us
+  match 'services' => 'services#index', :as => :services
+  match 'contacts' => 'contacts#index', :as => :contacts
 
   # Sample resource route with options:
   #   resources :products do

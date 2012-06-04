@@ -23,11 +23,11 @@
       .menu
         %ul
           %li
-            = link_to "services", "", :class => "weblinks"
+            = link_to "services", services_path, :class => "weblinks"
           %li
-            = link_to "about us", "", :class => "weblinks"
+            = link_to "about us", about_us_path, :class => "weblinks"
           %li
-            = link_to "contact", "", :class => "weblinks"
+            = link_to "contact", contacts_path, :class => "weblinks"
       .clear
   .content
     .formulario
@@ -36,7 +36,7 @@
         = f.inputs do
           = f.input :name,    :input_html => { :class => 'name' }
           = f.input :mail,    :input_html => { :class => 'mail' }
-          = f.input :proyect,  :input_html => { :class => 'proyect' }
+          = f.input :project,  :input_html => { :class => 'proyect' }
         = f.submit "submit"
     .secretbase
       %p.stitle jade secret base
