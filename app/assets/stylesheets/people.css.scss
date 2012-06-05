@@ -1,69 +1,72 @@
 // Place all the styles related to the people controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.pplmainview{
-  position:relative;
-  background-color: green;
-  width:940px;
-  height:120px;
-  margin:10px 10px 2px 10px;
-  .pplt1{
-  color:white;
-  font-size:25px;
-  position:absolute;
-  margin-left:15px;
-  margin-top:15px;
+
+body.people {
+  .mainview{
+    position:relative;
+    background-color: green;
+    width:940px;
+    height:120px;
+    margin:10px 10px 2px 10px;
+    .pplt1{
+    color:white;
+    font-size:25px;
+    position:absolute;
+    margin-left:15px;
+    margin-top:15px;
+    }
+    .pplt2{
+    position:absolute;
+    color:white;
+    font-size:17px;
+    margin-left: 15px;
+    margin-top: 49px;
+    letter-spacing: 1px;
+    }
   }
-  .pplt2{
-  position:absolute;
-  color:white;
-  font-size:17px;
-  margin-left: 15px;
-  margin-top: 49px;
-  letter-spacing: 1px;
-  }
-}
-.pplcontent{
-  width: 942px;
-  height: 400px;
-  margin-left: 8px;
-  .pplcontainers{
-  display:inline-block;
-  height: 380px;
-  margin-top:8px;
-  }
-  .team{
-    width: 325px;
-    float:left;
-    ul{
-      li{
-        margin: 40px 0px 40px 0px;
-        height: 126px;
-        img{
-          float:left;
-        }
-        p{
-          float:right;
-          font-size:14px;
-          width:170px;
+  .pplcontent{
+    width: 942px;
+    height: 400px;
+    margin-left: 8px;
+    .pplcontainers{
+    display:inline-block;
+    height: 380px;
+    margin-top:8px;
+    }
+    .team{
+      width: 325px;
+      float:left;
+      ul{
+        li{
+          margin: 40px 0px 40px 0px;
           height: 126px;
+          img{
+            float:left;
+          }
+          p{
+            float:right;
+            font-size:14px;
+            width:170px;
+            height: 126px;
+          }
         }
       }
     }
-  }
-  .tools{
-  width:600px;
-  float:right;
-    table{
-      width:600px;
-      height:380px;
-      background-color:gray;
-      tbody{
-        tr{
-          td.tds{
-          background: url('herramienta.png') no-repeat center;
-          width:120px;
-          height:120px;
+    .tools{
+    width:600px;
+    float:right;
+      table{
+        width:600px;
+        height:380px;
+        background-color:gray;
+        tbody{
+          tr{
+            td.tds{
+            background: url('herramienta.png') no-repeat center;
+            width:120px;
+            height:120px;
+            }
           }
         }
       }
