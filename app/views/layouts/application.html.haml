@@ -6,4 +6,37 @@
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body{ class: params[:controller] }
-    = yield
+    .maindiv
+      .header
+        .bar
+          .logo
+            = image_tag("logo.png")
+          .links
+            .top-links
+              .languages
+                = link_to "english", "", :class => "languageen"
+                \/
+                = link_to "español", "", :class => "languagees"
+                .clear
+              %ul
+                %li 
+                  = image_tag("facebook.png")
+                %li  
+                = image_tag("twitter.png")
+                %li  
+                  = image_tag("googleplus.png") 
+                %li  
+                  = image_tag("blogger.png")
+                .clear  
+              .clear  
+            .menu
+              %ul
+                %li
+                  = link_to "services", services_path, :class => "weblinks"
+                %li
+                  = link_to "about us", about_us_path, :class => "weblinks"
+                %li
+                  = link_to "contact", contacts_path, :class => "weblinks"
+              .clear
+            .clear
+      = yield

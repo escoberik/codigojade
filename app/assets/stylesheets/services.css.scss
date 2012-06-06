@@ -3,80 +3,87 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body.services {
+  background-color: #BDBDBD;
   .maindiv {
-    width: 960px;
     height: 520px;
     padding: 0px;
-    position: relative;
     margin:0 auto;
     .header {
-      position: relative;
-      .logo {
-        display: inline-block;
-      }
-      .links{
-        float: right;
-        margin-top: 8px;
-        .top-links{
-          .languages{
-            display: inline-block;
-            margin-top: 7px;
-            margin-left: 5px;
-            a:hover {
-              color: #00A632;
+      background-color: white;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 97px;
+      z-index: 1000;
+      .bar {
+        width: 935px;
+        margin: 0 auto;
+        .logo {
+          display: inline-block;
+        }
+        .links{
+          float: right;
+          margin-top: 8px;
+          .top-links{
+            .languages{
+              display: inline-block;
+              margin-top: 7px;
+              margin-left: 5px;
+              a:hover {
+                color: #00A632;
+              }
+              .languageen{
+                float:left;
+                text-decoration: none;
+                margin-right:4px;
+              }
+              .languagees{
+                text-decoration: none;
+              }
             }
-            .languageen{
+            ul{
+              display: inline-block;
+              float:right;
+              li{
+              display: inline-block;
               float:left;
-              text-decoration: none;
-              margin-right:4px;
-            }
-            .languagees{
-              text-decoration: none;
-            }
-          }
-          ul{
-            display: inline-block;
-            float:right;
-            li{
-            display: inline-block;
-            float:left;
-            margin:0px 7px;
-              img{
+              margin:0px 7px;
               }
             }
           }
-        }
-        .menu{
-          margin-top: 7px;
-          ul{
-            float:right;
-            li{
-              display: inline-block;
-              a{
+          .menu{
+            margin-top: 7px;
+            ul{
+              float:right;
+              li{
                 display: inline-block;
-                padding: 8px 18px;
-                margin: 6px 5px;
-                text-decoration: none;
-                background-color: gray;
-                color: white;
-                &:hover {
-                  background-color: #00A632;
+                a{
+                  display: inline-block;
+                  padding: 8px 18px;
+                  margin: 6px 5px;
+                  text-decoration: none;
+                  background-color: gray;
+                  color: white;
+                  &:hover {
+                    background-color: #00A632;
+                  }
                 }
               }
             }
-          }
-        }  
+          }  
+        }
       }
     }
     .content{
-      position:relative;
+      padding-top: 100px;
+      margin-left: 9px;
       .mainview{
-      position:relative;
       background-color: gray;
-      width:938px;
+      width:935px;
       height:210px;
-      margin: 0px 10px 0px 0px;
-      border: 10px solid #BDBDBD;
+      border-top: 10px solid #BDBDBD;
+      border-bottom: 10px solid #BDBDBD;
         h1 {
         color:white;
         font-size:70px;
@@ -94,6 +101,7 @@ body.services {
         }
       }
       .descriptions{
+        width: 935px;
         position:relative;
         ul{
           position:relative;
@@ -102,11 +110,15 @@ body.services {
             border: 10px solid #BDBDBD;
             border-top: 0px;
             border-right: 0px;
-            width: 227px;
+            width: 226px;
             height: 187px;
             float: left;
             &.sd{
               background-image: url(softwaredevelopment.png);
+              border: 10px solid #BDBDBD;
+              border-top: 0px;
+              border-left: 0px;
+              border-right: 0px;
             }
             &.wd{
               background-image: url(webdesign.png);
@@ -118,6 +130,7 @@ body.services {
               background-image: url(continumsuport.png);
               border: 10px solid #BDBDBD;
               border-top: 0px;
+              border-right: 0px;
             }
           }  
           p{

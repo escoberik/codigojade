@@ -1,47 +1,15 @@
-.maindiv
-  .header
-    .logo
-      = image_tag("logo.png")
-    .links
-      .top-links
-        .languages
-          = link_to "english", "", :class => "languageen"
-          \/
-          = link_to "español", "", :class => "languagees"
-          .clear
-        %ul
-          %li 
-            = image_tag("facebook.png")
-          %li  
-            = image_tag("twitter.png")
-          %li  
-            = image_tag("googleplus.png") 
-          %li  
-            = image_tag("blogger.png")
-          .clear  
-        .clear  
-      .menu
-        %ul
-          %li
-            = link_to "services", services_path, :class => "weblinks"
-          %li
-            = link_to "about us", about_us_path, :class => "weblinks"
-          %li
-            = link_to "contact", contacts_path, :class => "weblinks"
-        .clear
+.content 
+  .mainview
+    %h1 High quality
+    %h2 software design
+  .descriptions
+    %ul
+      %li.sd
+        %p software development
+      %li.wd
+        %p web design
+      %li.cm
+        %p content management
+      %li.cs
+        %p continuum suport
       .clear
-  .content 
-    .mainview
-      %h1 High quality
-      %h2 software design
-    .descriptions
-      %ul
-        %li.sd
-          %p software development
-        %li.wd
-          %p web design
-        %li.cm
-          %p content management
-        %li.cs
-          %p continuum suport
-        .clear

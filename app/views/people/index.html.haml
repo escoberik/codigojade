@@ -1,70 +1,35 @@
-.maindiv
-  .header
-    .logo
-      = image_tag("logo.png")
-    .links
-      .top-links
-        .languages
-          = link_to "english", "", :class => "languageen"
-          \/
-          = link_to "español", "", :class => "languagees"
-          .clear
-        %ul
-          %li 
-            = image_tag("facebook.png")
-          %li  
-            = image_tag("twitter.png")
-          %li  
-            = image_tag("googleplus.png") 
-          %li  
-            = image_tag("blogger.png")
-          .clear  
-        .clear  
-      .menu
-        %ul
-          %li
-            = link_to "services", services_path, :class => "weblinks"
-          %li
-            = link_to "about us", about_us_path, :class => "weblinks"
-          %li
-            = link_to "contact", contacts_path, :class => "weblinks"
-      .clear
-  .content  
-    .mainview
-      %p.pplt1 made of jade
-      %p.pplt2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-    .pplcontent
-      .team.pplcontainers
-        %ul
-          %li.erik
-            = image_tag("erik.png")
-            %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          %li.huascar
-            = image_tag("huascar.png")
-            %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-      .tools.pplcontainers
-        %table
-          %tbody
-            %tr
-              %td.tds
-              %td.tds
-              %td.tds
-              %td.tds
-              %td.tds
-            %tr
-              %td.tds
-              %td.tds
-              %td.tds
-              %td.tds
-              %td.tds
-            %tr
-              %td.tds
-              %td.tds
-              %td.tds
-              %td.tds
-              %td.tds
-              
-      .clear
-       
-     
-
+.content  
+  .mainview
+    %p.pplt1 made of jade
+    %p.pplt2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+  .pplcontent
+    .team.pplcontainers
+      %ul
+        %li.erik
+          = image_tag("erik.png")
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        %li.huascar
+          = image_tag("huascar.png")
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+    .tools.pplcontainers
+      %table
+        %tbody
+          %tr
+            %td.tds
+            %td.tds
+            %td.tds
+            %td.tds
+            %td.tds
+          %tr
+            %td.tds
+            %td.tds
+            %td.tds
+            %td.tds
+            %td.tds
+          %tr
+            %td.tds
+            %td.tds
+            %td.tds
+            %td.tds
+            %td.tds
+    .clear
