@@ -84,20 +84,47 @@ body.services {
       height:210px;
       border-top: 10px solid #BDBDBD;
       border-bottom: 10px solid #BDBDBD;
-        h1 {
-        color:white;
-        font-size:70px;
-        position:absolute;
-        margin-left:280px;
-        margin-top:5px;
-        }
-        h2 {
-        position:absolute;
-        color:white;
-        font-size:45px;
-        margin-left:280px;
-        margin-top: 78px;
-        letter-spacing: 5px;
+      overflow: hidden;
+      position: relative;
+        .slider {
+        height: 210px;
+        width: 4900px;
+        position: absolute;
+        padding-left: 25px;
+          h1 {
+            color: white;
+            margin-top: 30px;
+            font-size: 45px;
+          }
+          .text {
+            line-height: 23px;
+            color: white;
+            padding-top: 8px;
+            span {
+              font-style: italic;
+            }
+          }
+          .highquality {
+            display: none;
+            h1 {
+              color: white;
+              font-size:88px;
+              margin: 0 auto;
+              display: table;
+            }
+            h2 {
+              color: white;
+              font-size: 57px;
+              letter-spacing: 5px;
+              margin: 8px auto;
+              display: table;
+            }
+          }
+          .t1 {
+            height: 210px;
+            width: 935px;
+            float: left;
+          }
         }
       }
       .descriptions{
@@ -106,38 +133,64 @@ body.services {
         ul{
           position:relative;
           li {
+            position: relative;
             display: inline-block;
             border: 10px solid #BDBDBD;
             border-top: 0px;
             border-right: 0px;
             width: 226px;
-            height: 187px;
+            height: 163px;
+            padding-top: 30px;
             float: left;
-            &.sd{
-              background-image: url(softwaredevelopment.png);
-              border: 10px solid #BDBDBD;
-              border-top: 0px;
-              border-left: 0px;
-              border-right: 0px;
+            background-color: white;
+              &.first {
+                border-left: 0px;
+              }
+              &:hover {
+                background-color: #00A632;
+                .sd {
+                  background: #00A632 url(basepng.png) no-repeat -138px -245px;
+                }
+                .wd {
+                  background: #00A632 url(basepng.png) no-repeat -261px -245px;
+                }
+                .cm {
+                  background: #00A632 url(basepng.png) no-repeat 0px -245px;
+                }
+                .cs {
+                  background: #00A632 url(basepng.png) no-repeat -396px -245px;
+                }
+              }
+             .sd{
+              background: white url(basepng.png) no-repeat -138px -100px;
+              margin: 0 auto;
+              width: 121px;
+              height: 132px;
             }
-            &.wd{
-              background-image: url(webdesign.png);
+             .wd{
+              margin: 0 auto;
+              background: white url(basepng.png) no-repeat -261px -100px;
+              width: 132px;
+              height: 132px;
             }
-            &.cm{
-              background-image: url(contentmanagement.png);
+             .cm{
+              background: white url(basepng.png) no-repeat 0px -100px;
+              width: 140px;
+              height: 132px;
+              margin: 0 auto;
             }
-            &.cs{
-              background-image: url(continumsuport.png);
-              border: 10px solid #BDBDBD;
-              border-top: 0px;
-              border-right: 0px;
+             .cs{
+              margin: 0 auto;
+              background: white url(basepng.png) no-repeat -396px -100px;
+              width: 132px;
+              height: 132px;
             }
           }
           p{
-            text-align:center;
-            margin-top:165px;
-            color:white;
-            font-size:18px;
+            padding-top: 5px;
+            text-align: center;
+            color: #868686;
+            font-size: 18px;
           }
         }
       }
