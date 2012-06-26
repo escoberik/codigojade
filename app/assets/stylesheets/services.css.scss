@@ -88,7 +88,7 @@ body.services {
       position: relative;
         .slider {
         height: 210px;
-        width: 4900px;
+        width: 910px;
         position: absolute;
         padding-left: 25px;
           h1 {
@@ -97,15 +97,16 @@ body.services {
             font-size: 45px;
           }
           .text {
-            line-height: 23px;
+            line-height: 21px;
             color: white;
             padding-top: 8px;
             span {
               font-style: italic;
+              display: inline-block;
+              padding-bottom: 5px;
             }
           }
           .highquality {
-            display: none;
             h1 {
               color: white;
               font-size:88px;
@@ -125,6 +126,21 @@ body.services {
             width: 935px;
             float: left;
           }
+          .box {
+            width: 650px;
+          }
+          .software {
+            background: gray url('software.png') no-repeat 683px 0;
+          }
+          .web {
+            background: gray url('web.png') no-repeat 679px 0;
+          }
+          .contentman {
+            background: gray url('contentman.png') no-repeat 680px 0;
+          }
+          .continuum {
+            background: gray url('continuum.png') no-repeat 681px 0;
+          }
         }
       }
       .descriptions{
@@ -143,6 +159,7 @@ body.services {
             padding-top: 30px;
             float: left;
             background-color: white;
+            cursor: pointer;
               &.first {
                 border-left: 0px;
               }
@@ -199,4 +216,11 @@ body.services {
 }
 .clear{
   clear: both;
+}
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
 }
