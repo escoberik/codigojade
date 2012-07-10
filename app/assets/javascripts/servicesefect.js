@@ -2,7 +2,7 @@
 // = require jquery-ui
 // = require jquery_ujs
 
-$(document).ready(function() { 
+//$(document).ready(function() { 
   $('.tds').hover(
     function (e) {
       var $img = $(e.target).find('img.none');
